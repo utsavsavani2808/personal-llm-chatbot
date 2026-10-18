@@ -2,6 +2,10 @@
 
 A Python prototype for a personal chatbot using retrieval-augmented generation (RAG), OpenAI embeddings, FAISS vector search, SQLite-backed conversation memory, a FastAPI backend, and a Streamlit UI.
 
+> **Project status: In progress**
+>
+> Current priorities include validating the document ingestion and FAISS retrieval pipeline, testing the FastAPI and Streamlit integration, and improving evaluation and error handling. End-to-end testing is still pending.
+
 ## Features
 - Document ingestion and chunking
 - OpenAI embedding generation and FAISS retrieval
@@ -52,6 +56,15 @@ python scripts/03_run_eval.py
 
 Generated vector indexes, processed chunks, caches, local databases and real conversation histories are runtime data and should remain local. The included source document is only a small sample. The evaluation script is a starter scaffold, not an independently validated benchmark. This is a learning/portfolio prototype, not production-ready software; review authentication, privacy, error handling and deployment security before public deployment.
 
+## Current Status & Roadmap
+
+- [x] Prepare portfolio README and setup guidance
+- [x] Add a lightweight GitHub Actions Python syntax check
+- [ ] Validate document ingestion and vector-index generation end to end
+- [ ] Test retrieval, API responses, and Streamlit integration
+- [ ] Review error handling and evaluation results
+- [ ] Capture screenshots from the running application
+
 ## Project Notes
 
-I maintain this repository as part of my technical portfolio. The README and setup guidance have been prepared for this portfolio version. I am continuing to review, test, and document the implementation; any additional code changes and experiments should be recorded in the commit history. Third-party packages, models, and other included materials remain subject to their respective licenses.
+I maintain this repository as part of my technical portfolio. I am continuing to review, test, and document the implementation. The roadmap reflects current priorities and will be updated as work progresses. Third-party packages, models, and other included materials remain subject to their respective licenses.
