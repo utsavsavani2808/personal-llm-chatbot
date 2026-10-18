@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Environments
+.env
+.venv/
+venv/
+conda-meta/
+*.conda
+
+# Jupyter / misc
+.ipynb_checkpoints/
+.DS_Store
+
+# Data + indexes
+data/processed/
+indexes/
+*.log
+
+# Test/cache
+.pytest_cache/
+.coverage
+# Local secrets and generated data
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+*.py[cod]
