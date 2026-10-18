@@ -52,6 +52,6 @@ python scripts/03_run_eval.py
 
 Generated vector indexes, processed chunks, caches, local databases and real conversation histories are runtime data and should remain local. The included source document is only a small sample. The evaluation script is a starter scaffold, not an independently validated benchmark. This is a learning/portfolio prototype, not production-ready software; review authentication, privacy, error handling and deployment security before public deployment.
 
-## Attribution
+## Project Notes
 
-This is a curated portfolio copy of a supplied project archive. Review third-party package and model licenses before redistribution or commercial use.
+I maintain this repository as part of my technical portfolio. The README and setup guidance have been prepared for this portfolio version. I am continuing to review, test, and document the implementation; any additional code changes and experiments should be recorded in the commit history. Third-party packages, models, and other included materials remain subject to their respective licenses.
